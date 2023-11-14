@@ -1,0 +1,31 @@
+{
+    "analysis_type": "wgs",
+    "genome": "GRCh37",
+    "skip_germlinecnvcaller": true,
+    "skip_mt_analysis": true,
+    "skip_cnv_calling": true,
+    
+
+    "skip_mt_analysis": true,
+    "skip_sv_annotation": true,
+    "vep_cache_version" : 107,
+    "save_reference": false,
+    
+    "input": "samplesheet_single.csv",
+    "outdir": "run02_small/",
+    
+    "bwamem2": "/home/user2/Desktop/raredisease-dev/reference/newindex/",
+    "fasta" : "/home/user2/Desktop/raredisease-dev/reference/newindex/reference.fasta",
+    "fai": "/home/user2/Desktop/raredisease-dev/reference/newindex/reference.fasta.fai",
+    "gnomad_af": "/home/user2/Desktop/raredisease-dev/reference/gnomad_reformated.tab.gz",
+    "intervals_wgs": "/home/user2/Desktop/raredisease-dev/reference/genome_new.interval_list",
+    "intervals_y": "/home/user2/Desktop/raredisease-dev/reference/genomeY_new.interval_list",
+    "score_config_snv": "/home/user2/Desktop/raredisease-dev/reference/rank_model_snv.ini",
+    "score_config_sv": "/home/user2/Desktop/raredisease-dev/reference/rank_model_sv.ini",
+    "svdb_query_dbs": "/home/user2/Desktop/raredisease-dev/reference/svdb_querydb_files.csv",
+    "vcfanno_resources": "/home/user2/Desktop/raredisease-dev/reference/vcfanno_resources.txt",
+    "vcfanno_toml": "/home/user2/Desktop/raredisease-dev/reference/vcfanno_config.toml",
+    "vep_cache": "/home/user2/Desktop/raredisease-dev/reference/vep_cache_and_plugins.tar.gz",
+    "vep_filters": "/home/user2/Desktop/raredisease-dev/reference/hgnc.txt",
+    "variant_catalog": "/home/user2/Desktop/raredisease-dev/reference/variant_catalog.json"  
+}
